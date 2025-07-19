@@ -1,0 +1,16 @@
+# Core dependencies for chess application (Python 3.11 compatible)
+opencv-python>=4.9.0
+numpy>=1.24.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+python-chess>=1.999
+pygame>=2.5.0
+tensorflow>=2.16.0
+keras>=2.16.0
+stockfish>=3.28.0
+
+# Optional: For GUI (we'll decide later)
+# tkinter (comes with Python)
+
+# Optional: For AI/ML features
+scikit-learn>=1.3.0 
