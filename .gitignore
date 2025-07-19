@@ -1,10 +1,25 @@
+# Ignore Python cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.pyd
-*.jpg
-*.png
-venv/
-venv311/
+*.so
+
+# Ignore virtual environments
+venv*/
+env*/
+*.egg-info/
+.Python
+
+# Ignore large binaries
+*.exe
+*.dll
+*.zip
+*.tar.gz
+*.whl
+*.h5
+*.pb
+
+# Jupyter and VSCode artifacts
+.ipynb_checkpoints/
+.vscode/
 .DS_Store
-.env
