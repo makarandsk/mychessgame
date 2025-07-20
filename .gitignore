@@ -1,25 +1,24 @@
-# Ignore Python cache
+# Python bytecode & cache
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyd
-*.so
+*.pyo
 
-# Ignore virtual environments
+# Virtual environments
 venv*/
 env*/
-*.egg-info/
-.Python
 
-# Ignore large binaries
+# Binaries
 *.exe
 *.dll
 *.zip
 *.tar.gz
-*.whl
-*.h5
 *.pb
+*.h5
 
-# Jupyter and VSCode artifacts
+# Jupyter, logs & IDE
 .ipynb_checkpoints/
 .vscode/
+*.log
 .DS_Store
+.idea/
